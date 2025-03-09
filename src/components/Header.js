@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import '../App.css';
+import logo from "../images/logo.jpg"
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -12,7 +13,7 @@ const Header = () => {
     <header className="fixed-top">
       <nav className="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
         <a className="navbar-brand" href="#">
-          <img src="/images/logo3.jpg" alt="Logo" width="75" />
+          <img src= {logo} alt="Logo" width="75" />
         </a>
         <button
           className="navbar-toggler"
@@ -37,15 +38,16 @@ const Header = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#projects">
-                My Projects
-              </a>
-            </li>
-            <li className="nav-item">
               <a className="nav-link" href="#contact">
                 Contact
               </a>
             </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#projects">
+                My Projects
+              </a>
+            </li>
+          
           </ul>
         </div>
       </nav>
