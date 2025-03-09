@@ -1,9 +1,9 @@
 const projects = [
     {
-      name: "Project 1",
+      name: "Semester Project 2",
       description: "This is a description of project 1",
       imageUrl: "/assets/prosject1.jpg", 
-      repoUrl: "https://github.com/your-username/project1", 
+      repoUrl: "https://github.com/martinsk91/semester-project-2", 
     },
     {
       name: "Project 2",
