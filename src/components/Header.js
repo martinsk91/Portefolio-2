@@ -12,7 +12,7 @@ const Header = () => {
   return (
     <header className="fixed-top">
       <nav className="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
-        <a className="navbar-brand" href="#">
+        <a className="navbar-brand" href="/">
           <img src= {logo} alt="Logo" width="75" />
         </a>
         <button
