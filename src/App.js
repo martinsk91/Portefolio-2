@@ -2,12 +2,14 @@ import React from "react";
 import ProjectCard from "./components/ProjectCard.js";
 import projects from "./variabels/projects.js";
 import Header from "./components/Header.js";
+import About from "./components/About.js";
 
 const App = () => {
   return (
     <>
       <Header/>
-    <div className="min-vh-100 bg-light py-5 px-3">
+      <About/>
+    <div className="min-vh-100 bg-light py-5 px-3 my-5">
       
       <div className="container">
         <div className="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4">
